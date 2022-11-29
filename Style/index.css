@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* ................Navbar................ */
+.navbar-togglerr {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+.btn-closee {
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.fa-xmark {
+  font-size: 2rem;
+}
+/* ...........................................Home Component..................................... */
+.home-component {
+  background-image: url("/Images/home_background_image.jpg");
+  background-size: cover;
+
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+.home-subcomponent {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+.typed-animation-style {
+  font-size: 9vmin;
+}
+.typed-text-color {
+  color: aqua;
+}
+.social-media-icon {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.social-media-icon:hover {
+  color: aqua;
+}
+.fa-brands {
+  font-size: 4vmin;
+}
+.instagram {
+  margin: 1vw;
+}
+.facebook {
+  margin: 1vw;
+}
+.github {
+  margin: 1vw;
+}
+.linkedin {
+  margin: 1vw;
+}
+.fa-instagram:hover,
+.fa-facebook-f:hover,
+.fa-github:hover,
+.fa-linkedin-in:hover {
+  color: aqua;
+}
+.download-Resume-button {
+  padding: 0.5rem;
+  font-size: 3vmin;
+  border: 2px solid aqua;
+  text-decoration: none;
+  color: white;
+}
+.download-Resume-button:hover {
+  background-color: aqua;
+  color: black;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+/* ...............................................About Component.................................. */
+.about-component {
+  /* height: 100vh; */
+  width: 100%;
+}
+.about-heading {
+  font-size: 10vmin;
+}
+.image-box {
+  text-align: center;
+}
+.my-image {
+  width: 80%;
+  height: 80%;
+}
+.about-title {
+  font-size: 5vmin;
+}
+/* .................................................Project Component..................................... */
+.project-component {
+  width: 100%;
+}
+.project-heading {
+  font-size: 10vmin;
+}
+.Vist-icon {
+  background-color: aqua;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.Vist-icon:hover {
+  background-color: black;
+  color: white;
+}
+/* ..................................................Skill Component.......................................... */
+.skill-component {
+  width: 100%;
+}
+.skill-heading {
+  font-size: 10vmin;
+}
+.skill-icon {
+  height: 30vmin;
+  width: 30vmin;
+}
+.skill-icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* .....................................................Contect Component................................. */
+.contect-component {
+  width: 100%;
+}
+.contect-heading {
+  font-size: 10vmin;
+}
+.fa-location-dot {
+  font-size: 2em;
+}
+.fa-envelope {
+  font-size: 2em;
+}
+.fa-phone {
+  font-size: 2em;
+}
+.media-icon {
+  display: inline-block;
+}
+.media-icon .social-media-icon-list {
+  display: inline-block;
+}
